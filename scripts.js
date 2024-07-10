@@ -53,6 +53,7 @@ function CheckWins(){
        (box2.textContent === 'O') && ( box4.textContent === 'O') && (box6.textContent === 'O' ) 
        
     ){
+        p.style.backgroundColor='rgb(98, 96, 94)'
         p.innerHTML='Congratulations , Winner is O'
         gameActive=false
         restartGame()
@@ -68,12 +69,14 @@ function CheckWins(){
         (box0.textContent === 'X') && ( box4.textContent === 'X') && (box8.textContent === 'X' ) ||
         (box2.textContent === 'X') && ( box4.textContent === 'X') && (box6.textContent === 'X' ) 
         ){ 
+              p.style.backgroundColor='rgb(98, 96, 94)'
             p.innerHTML='Congratulations , Winner is X'
             gameActive=false
             restartGame()
         }
 
         else if(checkDraw()){
+           p.style.backgroundColor='rgb(214, 144, 57)'
             p.innerHTML='It was Draw'
             gameActive=false
             restartGame()
