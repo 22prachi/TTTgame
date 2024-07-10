@@ -69,7 +69,7 @@ function CheckWins(){
         (box0.textContent === 'X') && ( box4.textContent === 'X') && (box8.textContent === 'X' ) ||
         (box2.textContent === 'X') && ( box4.textContent === 'X') && (box6.textContent === 'X' ) 
         ){ 
-              p.style.color='rgb(19, 75, 172)'
+            p.style.color='rgb(19, 75, 172)'
             p.innerHTML='Congratulations , Winner is X'
             gameActive=false
             restartGame()
