@@ -103,7 +103,7 @@ function CheckWins(){
 
     let newgame=document.createElement('div')
     newgame.className = 'restart-div';
-    newgame.innerHTML=`<h2 id='newGame'>Click to start New Game</h2>`
+    newgame.innerHTML=`<h4 id='newGame'>Click to start New Game</h4>`
     newgame.style.backgroundColor='rgb(182, 39, 113)'
     newgame.style.borderRadius = '5px';
    
